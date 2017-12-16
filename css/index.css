@@ -48,12 +48,27 @@ a{
 .s1{
     background-image: url("../images/timg.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
-.section h1{
-    margin-top: 200px;
-
-
+.s1_con{
+    position: relative;
+    height: 250px;
+    width: 500px;
+    top:10%;
+    left: 10%;
 }
+.logo{
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    background: url("../images/头像.jpg") 100% no-repeat;
+    float: left;
+}
+.s1p{
+    margin-top: 150px;
+    float: right;
+}
+
 
 
 
