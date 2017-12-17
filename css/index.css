@@ -45,28 +45,39 @@ a{
     background:#FC0;
     color:rgba(0,0,0,0.8);
 }
-.s1{
-    background-image: url("../images/timg.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 .s1_con{
+    height: auto;
+    width: 980px;
+    margin: 0 auto;
     position: relative;
-    height: 250px;
-    width: 500px;
-    top:10%;
-    left: 10%;
+    top: 60px;
+
 }
 .logo{
+    position: relative;
     height: 250px;
     width: 250px;
-    border-radius: 150px;
     background: url("../images/头像.jpg") 100% no-repeat;
-    float: left;
+    border-radius: 150px;
+    top: 200px;
+    left: 350px;
 }
-.s1p{
-    margin-top: 150px;
-    float: right;
+.s1_con a{
+    font-size: 34px;
+}
+.about{
+    position: relative;
+    top: 150px;
+}
+.work{
+    position: relative;
+    top: 150px;
+    left: 585px;
+}
+.interest{
+    position: relative;
+    top: 600px;
+    left:105px;
 }
 
 
