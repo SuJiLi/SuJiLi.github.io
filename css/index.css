@@ -59,11 +59,14 @@ a{
     width: 250px;
     background: url("../images/头像.jpg") 100% no-repeat;
     border-radius: 150px;
-    top: 200px;
+    top: 50px;
     left: 350px;
 }
 .s1_con a{
     font-size: 34px;
+}
+.s1_con span:hover {
+    text-decoration: underline;
 }
 .about{
     position: relative;
@@ -72,12 +75,26 @@ a{
 .work{
     position: relative;
     top: 150px;
-    left: 585px;
+    left: 450px;
 }
 .interest{
     position: relative;
-    top: 600px;
+    top: 500px;
     left:105px;
+}
+.span{
+    font-size: 21px;
+    position: relative;
+    left: 150px;
+}
+.span1{
+    left: 0px;
+}
+.span2{
+    left: 320px;
+}
+.span3{
+    left: 280px;
 }
 
 
