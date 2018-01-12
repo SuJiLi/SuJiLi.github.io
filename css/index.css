@@ -59,7 +59,7 @@ a{
     width: 250px;
     background: url("../images/头像.jpg") 100% no-repeat;
     border-radius: 150px;
-    top: 50px;
+    top: 0px;
     left: 350px;
 }
 .s1_con a{
@@ -70,16 +70,16 @@ a{
 }
 .about{
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 .work{
     position: relative;
-    top: 150px;
+    top: 100px;
     left: 450px;
 }
 .interest{
     position: relative;
-    top: 500px;
+    top: 450px;
     left:105px;
 }
 .span{
@@ -95,6 +95,12 @@ a{
 }
 .span3{
     left: 280px;
+}
+.s2_con{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: tomato;
 }
 
 
