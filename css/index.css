@@ -45,64 +45,98 @@ a{
     background:#FC0;
     color:rgba(0,0,0,0.8);
 }
-.s1_con{
-    height: auto;
-    width: 980px;
-    margin: 0 auto;
+/*section1*/
+.section1_content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
     position: relative;
-    top: 60px;
+}
+.p_content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    height: 400px;
 
 }
-.logo{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    background: url("../images/头像.jpg") 100% no-repeat;
-    border-radius: 150px;
-    top: 0px;
+#p1{
+    position: absolute;
+    left: 235px;
+    top: 50px;
+    font-family: cursive,'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #2c3e50;
+}
+#p2{
+    position: absolute;
+    top: 190px;
     left: 350px;
+    font-family: cursive,'Lato', sans-serif;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #2c3e50;
+
 }
-.s1_con a{
-    font-size: 34px;
-}
-.s1_con span:hover {
-    text-decoration: underline;
-}
-.about{
-    position: relative;
-    top: 100px;
-}
-.work{
-    position: relative;
-    top: 100px;
-    left: 450px;
-}
-.interest{
-    position: relative;
-    top: 450px;
-    left:105px;
-}
-.span{
-    font-size: 21px;
-    position: relative;
-    left: 150px;
-}
-.span1{
-    left: 0px;
-}
-.span2{
-    left: 320px;
-}
-.span3{
-    left: 280px;
-}
+
+/*section1*/
+/*section2*/
 .s2_con{
-    width: 980px;
+    position: relative;
+    width: 70%;
     height: 100%;
     margin: 0 auto;
-    background-color: tomato;
-}
 
+}
+#about_content{
+    position: absolute;
+    width: 100%;
+    height:80% ;
+
+    top: 10%;
+}
+#about_content h2{
+    position: absolute;
+    width:90px;
+    height: 50px;
+    border-bottom: 2px solid red;
+    font-family: cursive,'Lato', sans-serif;
+    font-size: 30px;
+    top:10%;
+    left:43%;
+    color: #2c3e50;
+}
+.about{
+    position: absolute;
+    width: 100%;
+    height:80%;
+
+    top: 25%;
+}
+.about_pic{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius:100px ;
+
+    background: url(../images/about.jpg) no-repeat;
+    background-size: 100%;
+    top: 10%;
+    left: 39%;
+
+}
+#about_p{
+    position: absolute;
+    width: 70%;
+    top: 65%;
+    left: 15%;
+    line-height: 28px;
+    white-space: nowrap;
+    text-indent: 2em;
+}
+/*section2*/
 
 
 
